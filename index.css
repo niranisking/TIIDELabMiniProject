@@ -1,0 +1,69 @@
+/* Resetting The Browser Default Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: arial;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.user-table-heading {
+  margin: 10px 0;
+}
+
+/* SEARCH BOX SECTION */
+.search-section {
+  background-color: hsl(236, 63%, 67%);
+  padding: 10px;}
+
+
+#search {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+
+}
+
+.user-list-section {
+  margin-top: 20px;
+}
+
+li {
+  border: 1px solid #dddddd;
+  margin-top: -1px; /* This Prevents Double Borders */
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 12px;
+}
+li:hover {
+  background-color: #eeeeee;
+}
+
+/* BUTTON FOR USERNAME */
+.username {
+  background-color: hsl(236, 63%, 67%);
+  color: #ffffff;
+  font-weight: 700;
+  padding: 6px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+  body{width: 50%;}
+  li {font-size: 14px;
+  }
+  .username {
+    font-weight: 400;
+  }
+}
